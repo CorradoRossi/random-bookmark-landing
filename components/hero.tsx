@@ -46,10 +46,9 @@ export default function Hero() {
                 data-aos="fade-up"
                 data-aos-delay="200"
               >
-                A quirky Chrome extension that selects from your
-                collection at random
+                A quirky Chrome extension that selects from your collection at
                 <br className="hidden md:block" />
-                for a little delight with each new page.
+                random for a little delight with each new page.
               </p>
 
               {/* Buttons */}
@@ -61,7 +60,8 @@ export default function Hero() {
                 <div>
                   <Link
                     className="btn-sm w-full inline-flex items-center text-slate-900 bg-white hover:bg-slate-200 group shadow-sm"
-                    href="/apply"
+                    href="https://github.com/corradorossi/random-bookmark"
+                    target="_blank"
                   >
                     Get Extension
                     <span className="tracking-normal text-orange-600 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-2">

@@ -21,7 +21,7 @@ export default function Header() {
             {/* Desktop sign in links */}
             <ul className="flex grow justify-end flex-wrap items-center">
               <li className="ml-3">
-                <Link className="btn-sm inline-flex items-center text-slate-900 bg-white hover:bg-slate-200 group shadow-sm" href="/apply">
+                <Link className="btn-sm inline-flex items-center text-slate-900 bg-white hover:bg-slate-200 group shadow-sm" href="https://github.com/corradorossi/random-bookmark" target="_blank">
                   Get Extension
                   <span className="tracking-normal text-orange-600 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-2">
                     <svg className="fill-current" width="12" height="10" xmlns="http://www.w3.org/2000/svg">
