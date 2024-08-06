@@ -80,12 +80,12 @@ export default function SupportSidebar() {
                     </SidebarLink>
                   </li>
                   <li>
-                    <SidebarLink href="/support/welcome/quick-from">
+                    <SidebarLink href="/support/welcome/overview">
                       Overview
                     </SidebarLink>
                   </li>
                   <li>
-                    <SidebarLink href="/support/welcome/folder-content">
+                    <SidebarLink href="/support/welcome/features">
                       Features
                     </SidebarLink>
                   </li>
