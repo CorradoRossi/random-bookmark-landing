@@ -69,10 +69,10 @@ export default function Footer() {
               <li>
                 <a
                   className="text-white hover:text-slate-200 transition duration-150 ease-in-out"
-                  href="https://rossimeacham.com"
+                  href="https://wenlambo.wtf"
                   target="_blank"
                 >
-                  Original MotoRossi
+                  Wenlambo.wtf
                 </a>
               </li>
             </ul>
@@ -82,24 +82,6 @@ export default function Footer() {
           <div className="sm:col-span-6 md:col-span-3 lg:col-span-2">
             <h6 className="text-sm text-white font-bold mb-3">Work</h6>
             <ul className="text-sm font-[450] space-y-2">
-              <li>
-                <a
-                  className="text-white hover:text-slate-200 transition duration-150 ease-in-out"
-                  href="https://wenlambo.wtf"
-                  target="_blank"
-                >
-                  Blog
-                </a>
-              </li>
-              <li>
-                <a
-                  className="text-white hover:text-slate-200 transition duration-150 ease-in-out"
-                  href="https://rssi.dev"
-                  target="_blank"
-                >
-                  rssi.dev
-                </a>
-              </li>
               <li>
                 <a
                   className="text-white hover:text-slate-200 transition duration-150 ease-in-out"
@@ -116,6 +98,24 @@ export default function Footer() {
                   target="_blank"
                 >
                   WGMI Capital
+                </a>
+              </li>
+              <li>
+                <a
+                  className="text-white hover:text-slate-200 transition duration-150 ease-in-out"
+                  href="https://rssi.dev"
+                  target="_blank"
+                >
+                  Rssi.dev
+                </a>
+              </li>
+              <li>
+                <a
+                  className="text-white hover:text-slate-200 transition duration-150 ease-in-out"
+                  href="https://rossimeacham.com"
+                  target="_blank"
+                >
+                  MotoRossi
                 </a>
               </li>
             </ul>
@@ -155,16 +155,16 @@ export default function Footer() {
               <li>
                 <a
                   className="text-white hover:text-slate-200 transition duration-150 ease-in-out"
-                  href="https://unicorn.dev"
+                  href="https://metastash.unicornplatform.com/"
                   target="_blank"
                 >
-                  Unicorn
+                  Unicorn Platform
                 </a>
               </li>
               <li>
                 <a
                   className="text-white hover:text-slate-200 transition duration-150 ease-in-out"
-                  href="https://substack.com/metastash"
+                  href="https://metastash.substack.com"
                   target="_blank"
                 >
                   Substack
