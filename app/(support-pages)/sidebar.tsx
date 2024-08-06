@@ -92,25 +92,25 @@ export default function SupportSidebar() {
                 </SidebarLinkGroup>
                 <SidebarLinkGroup
                   title="Useage"
-                  open={segments.includes("sending-money")}
+                  open={segments.includes("useage")}
                 >
                   <li>
-                    <SidebarLink href="/support/sending-money/how-do-i-send-money-to-a-bank-account-or-card">
+                    <SidebarLink href="/support/useage/useage">
                       Useage
                     </SidebarLink>
                   </li>
                   <li>
-                    <SidebarLink href="/support/sending-money/what-recipient-account-details-do-i-need">
+                    <SidebarLink href="/support/useage/files">
                       Files
                     </SidebarLink>
                   </li>
                   <li>
-                    <SidebarLink href="/support/sending-money/how-do-i-download-my-transfer-confirmation">
+                    <SidebarLink href="/support/useage/permissions">
                       Permissions
                     </SidebarLink>
                   </li>
                   <li>
-                    <SidebarLink href="/support/sending-money/contributing">
+                    <SidebarLink href="/support/useage/contributing">
                       Contributing
                     </SidebarLink>
                   </li>
