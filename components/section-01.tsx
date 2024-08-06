@@ -37,7 +37,7 @@ export default function Section01() {
               </h4>
               <p className="text-slate-500">
                 If you're anything like me, you've amassed a lot of bookmarks
-                over the years. What better way to rediscover the gems!
+                over the years. What better way to rediscover those gems.
               </p>
             </div>
 

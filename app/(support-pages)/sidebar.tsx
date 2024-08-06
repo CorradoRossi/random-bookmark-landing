@@ -63,12 +63,17 @@ export default function SupportSidebar() {
           leaveTo="opacity-0"
         >
           <div className="pt-28 pb-12 md:pt-36 md:pb-16">
-            <h3 className="text-lg font-bold text-slate-800 mb-4">Popular topics</h3>
+            <h3 className="text-lg font-bold text-slate-800 mb-4">
+              Topics
+            </h3>
 
             {/* Support nav */}
             <nav className="md:block">
               <ul className="space-y-3">
-                <SidebarLinkGroup title="Welcome" open={segments.includes('welcome')}>
+                <SidebarLinkGroup
+                  title="Welcome"
+                  open={segments.includes("welcome")}
+                >
                   <li>
                     <SidebarLink href="/support/welcome/installation">
                       Installation
@@ -76,33 +81,44 @@ export default function SupportSidebar() {
                   </li>
                   <li>
                     <SidebarLink href="/support/welcome/quick-from">
-                      Quick From
+                      Overview
                     </SidebarLink>
                   </li>
                   <li>
                     <SidebarLink href="/support/welcome/folder-content">
-                      Folder content
+                      Features
                     </SidebarLink>
                   </li>
                 </SidebarLinkGroup>
-                <SidebarLinkGroup title="Sending money" open={segments.includes('sending-money')}>
+                <SidebarLinkGroup
+                  title="Useage"
+                  open={segments.includes("sending-money")}
+                >
                   <li>
                     <SidebarLink href="/support/sending-money/how-do-i-send-money-to-a-bank-account-or-card">
-                      How do I send money to a bank account or card?
+                      Useage
                     </SidebarLink>
                   </li>
                   <li>
                     <SidebarLink href="/support/sending-money/what-recipient-account-details-do-i-need">
-                      What recipient account details do I need?
+                      Files
                     </SidebarLink>
                   </li>
                   <li>
                     <SidebarLink href="/support/sending-money/how-do-i-download-my-transfer-confirmation">
-                      How do I download my transfer confirmation?
+                      Permissions
+                    </SidebarLink>
+                  </li>
+                  <li>
+                    <SidebarLink href="/support/sending-money/contributing">
+                      Contributing
                     </SidebarLink>
                   </li>
                 </SidebarLinkGroup>
-                <SidebarLinkGroup title="Account management" open={segments.includes('account-management')}>
+                {/*<SidebarLinkGroup
+                  title="Account management"
+                  open={segments.includes("account-management")}
+                >
                   <li>
                     <a className="text-slate-600 font-[350]" href="#0">
                       Link
@@ -119,7 +135,7 @@ export default function SupportSidebar() {
                     </a>
                   </li>
                 </SidebarLinkGroup>
-                <SidebarLinkGroup title="Card" open={segments.includes('card')}>
+                <SidebarLinkGroup title="Card" open={segments.includes("card")}>
                   <li>
                     <a className="text-slate-600 font-[350]" href="#0">
                       Link
@@ -136,7 +152,10 @@ export default function SupportSidebar() {
                     </a>
                   </li>
                 </SidebarLinkGroup>
-                <SidebarLinkGroup title="Credit products" open={segments.includes('credit-products')}>
+                <SidebarLinkGroup
+                  title="Credit products"
+                  open={segments.includes("credit-products")}
+                >
                   <li>
                     <a className="text-slate-600 font-[350]" href="#0">
                       Link
@@ -153,7 +172,10 @@ export default function SupportSidebar() {
                     </a>
                   </li>
                 </SidebarLinkGroup>
-                <SidebarLinkGroup title="App features" open={segments.includes('app-features')}>
+                <SidebarLinkGroup
+                  title="App features"
+                  open={segments.includes("app-features")}
+                >
                   <li>
                     <a className="text-slate-600 font-[350]" href="#0">
                       Link
@@ -170,7 +192,10 @@ export default function SupportSidebar() {
                     </a>
                   </li>
                 </SidebarLinkGroup>
-                <SidebarLinkGroup title="Insurance" open={segments.includes('insurance')}>
+                <SidebarLinkGroup
+                  title="Insurance"
+                  open={segments.includes("insurance")}
+                >
                   <li>
                     <a className="text-slate-600 font-[350]" href="#0">
                       Link
@@ -187,7 +212,10 @@ export default function SupportSidebar() {
                     </a>
                   </li>
                 </SidebarLinkGroup>
-                <SidebarLinkGroup title="Wealth and trading" open={segments.includes('wealth-and-trading')}>
+                <SidebarLinkGroup
+                  title="Wealth and trading"
+                  open={segments.includes("wealth-and-trading")}
+                >
                   <li>
                     <a className="text-slate-600 font-[350]" href="#0">
                       Link
@@ -203,12 +231,12 @@ export default function SupportSidebar() {
                       Link
                     </a>
                   </li>
-                </SidebarLinkGroup>
+                </SidebarLinkGroup>*/}
               </ul>
             </nav>
           </div>
         </Transition>
-      </div>           
+      </div>
     </>
-  )
+  );
 }
