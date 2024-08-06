@@ -10,7 +10,7 @@ export default function SupportHeader() {
           {/* Site branding */}
           <div className="shrink-0 mr-4">
             {/* Logo */}
-            <Link className="flex items-center" href="/" aria-label="Cruip">
+            <Link className="flex items-center" href="/" aria-label="logo">
               <Image src={Logo} alt="Logo" width={40} height={40} />
               <span className="text-slate-400 font-[550] ml-4">Support Center</span>
             </Link>

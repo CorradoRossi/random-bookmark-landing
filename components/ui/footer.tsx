@@ -30,7 +30,7 @@ export default function Footer() {
           {/* 1st block */}
           <div className="sm:col-span-12 lg:col-span-2 lg:max-w-xs">
             {/* Logo */}
-            <Link className="block" href="/" aria-label="Cruip">
+            <Link className="block" href="/" aria-label="logo">
               <Image src={Logo} alt="Logo" width={40} height={40} />
             </Link>
           </div>
