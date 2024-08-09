@@ -18,8 +18,8 @@ export default async function handler(req: any, res: any) {
       port: 587,
       secure: false, // Use TLS
       auth: {
-        user: "your-email@example.com",
-        pass: "your-email-password",
+        user: "hello@metastash.xyz",
+        pass: "abcde12345",
       },
     });
 
