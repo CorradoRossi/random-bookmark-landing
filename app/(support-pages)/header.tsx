@@ -21,7 +21,7 @@ export default function SupportHeader() {
             {/* Desktop sign in links */}
             <ul className="flex grow justify-end flex-wrap items-center">
               <li className="ml-3">
-                <a className="btn-sm inline-flex items-center text-white bg-orange-custom hover:bg-slate-900 shadow-sm" href="/apply">
+                <a className="btn-sm inline-flex items-center text-white bg-orange-custom hover:bg-slate-900 shadow-sm" href="/hello">
                   Get in touch
                 </a>
               </li>
