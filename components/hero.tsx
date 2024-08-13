@@ -60,7 +60,7 @@ export default function Hero() {
                 <div>
                   <Link
                     className="btn-sm w-full inline-flex items-center text-slate-900 bg-white hover:bg-slate-200 group shadow-sm"
-                    href="https://github.com/corradorossi/random-bookmark"
+                    href="https://chromewebstore.google.com/detail/get-random-bookmark/aokfdlhcllabjbgeahdmgpbcjmhodicl"
                     target="_blank"
                   >
                     Get Extension
